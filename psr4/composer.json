@@ -1,0 +1,19 @@
+{
+    "name": "maxijayme/cursoplatzi",
+    "description": "Pronado estandard PSR4",
+    "authors": [
+        {
+            "name": "maxijayme",
+            "email": "maxijayme@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "app/logic/CreateHuman.php"
+        ],
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {}
+}
